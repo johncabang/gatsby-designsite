@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../components/Navbar"
+import Footer from "./Footer"
 import "../styles/global.css"
 
 function Layout({ children }) {
@@ -7,9 +8,7 @@ function Layout({ children }) {
     <div className="layout">
       <Navbar />
       <div className="content">{children}</div>
-      <footer>
-        <p>Copyright &copy; {new Date().getFullYear()} designsite</p>
-      </footer>
+      <Footer />
     </div>
   )
 }
