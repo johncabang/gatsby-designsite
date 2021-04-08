@@ -1,0 +1,22 @@
+.details {
+  padding: 0 80px 80px 80px;
+}
+
+.details h2 {
+  font-size: 3rem;
+  margin-top: 80px;
+}
+
+.details h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 20px 0 40px 0;
+}
+
+.description {
+  margin-top: 80px;
+}
+
+.featured {
+  margin-bottom: 40px;
+}
